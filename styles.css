@@ -1,20 +1,34 @@
 body {
-	padding-top: 70px;
+  background: #C0C0C0;
+  margin: 0px;
+}
+
+h1 {
+	font-family: fantasy;
+	font-size: 3em;
+	font-weight: normal;
+}
+
+img {
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+  transition: all 1s;
+  border-radius: 15px;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+.container-images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .jumbotron {
 	color: #2c3e50;
-	background: #ecf0f1;
-}
-
-.navbar-inverse {
-	background:#2c3e50;
-}
-
-.navbar-inverse .navbar-brand {
-    color: white;
-}
-
-.navbar-inverse .navbar-nav>li>a {
-    color: white;
+  background: #ecf0f1;
+  padding-left: 20px;
 }
