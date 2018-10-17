@@ -23,6 +23,13 @@ img {
   background: rgb(236, 240, 241);
 }
 
+@media (max-width: 480px) {
+  img {
+    width: 300px;
+    height: 200px;
+  }
+}
+
 .container-images {
   display: flex;
   flex-wrap: wrap;
